@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins&display=swap');
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+
+:root {
+  --Violet: hsl(257, 40%, 49%);
+  --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-image: url('images/bg-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--Violet);
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font: inherit;
+}
+
+p,
+h1 {
+  overflow-wrap: break-word;
+}
+
+#socials {
+  
+  
+}
